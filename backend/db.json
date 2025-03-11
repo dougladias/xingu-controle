@@ -1,0 +1,19 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Caneta BIC Azul",
+            "amount": 50
+        },
+        {
+            "id": 2,
+            "name": "Caneta BIC Preta",
+            "amount": 30
+        },
+        {
+            "id": 3,
+            "name": "Caneta BIC Vermelha",
+            "amount": 15
+        }
+    ]
+}
