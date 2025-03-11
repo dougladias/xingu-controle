@@ -1,0 +1,21 @@
+
+.footer {
+    font-family: "Poppins";
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    background: #007A3D;
+
+    span {
+        font-size: 1.1rem;
+        font-weight: 400;
+        margin-right: 0.8rem;
+
+        i {
+            margin: 0.5rem;
+        }
+        
+    }
+}
+

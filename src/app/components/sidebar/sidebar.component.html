@@ -1,0 +1,28 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidebar" mode="side" opened fixedInViewport="true" fixedTopGap="67" fixedBottomGap="64">
+        <mat-nav-list class="nav-list">
+            <!--Link Para Outras Paginas-->            
+            <ul>
+                <li>
+                    <a mat-list-item routerLink="/home">
+                        <i class="fa-solid fa-landmark-dome" style="color: #000000;"></i>
+                        <span>
+                           Dashboard
+                        </span> 
+                    </a>
+                </li>
+                <li>
+                    <a mat-list-item routerLink="/products">
+                        <i class="fa-solid fa-warehouse" style="color: #000000;"></i>
+                        <span>
+                            Estoque
+                        </span>                
+                    </a>    
+                </li>
+            </ul>          
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

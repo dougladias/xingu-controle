@@ -1,15 +1,18 @@
 
 .header {
     width: 100vw;
+    height: 7vh;
     display: flex;
-    align-items: center;    
+    align-items: center;
+    background: white;
     box-shadow: 0 -6px 10px 5px rgba(0, 0, 0, 0.603);        
+    z-index: 5;
   }
 
 nav {
     display: flex;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 2.5rem;
+    padding-right: 1rem;
     align-items: center;    
 }
 
@@ -19,24 +22,24 @@ nav {
     text-decoration: none;
 
     .logo {
-        max-height: 32px;
+        max-height: 50px;
     }
 }
 
 .title-group{
-    padding-left: 25px;
+    padding-left: 1.8rem;
 
     a {        
         align-items: center;
         color: black;
         font-weight: 400;
         font-family: 'Poppins';
-        font-size: 16px;
+        font-size: 1rem;
         
         i {
             color: black;
-            padding-right: 4px;
-            font-size: 25px;
+            padding-right: 0.5rem;
+            font-size: 1.5rem;
         }
     }
 }

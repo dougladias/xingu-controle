@@ -1,0 +1,21 @@
+
+.home {
+   padding: 1rem; 
+   background-color: white;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5px;
+}
+
+.title {
+    font-family: "Poppins";
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    font-family: "Poppins";
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: dimgrey;
+}

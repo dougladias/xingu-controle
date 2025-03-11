@@ -1,14 +1,13 @@
+<!--Menu de Navegação-->
 <mat-toolbar class="header">
     <nav>
         <a>
-            <img class="logo" src="./assets/LOGO-XINGU.svg" alt="logo Xingu">
+            <img class="logo" src="./assets/globoo.svg" alt="logo Globoo">
         </a>
         <span class="title-group">
             <a>
-                <i class="material-icons">
-                    dashboard
-                </i>
-                Controle de Estoque
+                <i [class]="currentIcon"></i>
+                {{ currentTitle }}
             </a>
         </span>
     </nav>
